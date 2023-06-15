@@ -1,0 +1,44 @@
+{
+  "projetcs": [
+    {
+      "name": "Cohort Manager",
+      "slug": "cohort_manager",
+      "subtitle": "",
+      "description": "",
+      "image": "/images/cohort_manager_logo.png",
+      "video": "/videos/cohort_manager.mp4"
+    },
+    {
+      "name": "Chat App",
+      "slug": "chat_app",
+      "subtitle": "",
+      "description": "",
+      "image": "/images/coming_soon_logo.png",
+      "video": null
+    },
+    {
+      "name": "RolePlay",
+      "slug": "role_play",
+      "subtitle": "",
+      "description": "",
+      "image": "/images/roleplay_logo.png",
+      "video": "/videos/cohort_manager.mp4"
+    },
+    {
+      "name": "Play Nation",
+      "slug": "play_nation",
+      "subtitle": "",
+      "description": "",
+      "image": "/images/play_nation_logo.png",
+      "video": "/videos/play_nation.mp4"
+    },
+    {
+      "name": "Kubika S.r.l",
+      "slug": "kubika",
+      "subtitle": "",
+      "description": "",
+      "image": "/images/coming_soon_logo.png",
+      "video": null
+    }
+  ]
+}
