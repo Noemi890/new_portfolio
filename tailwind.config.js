@@ -3,11 +3,5 @@ module.exports = {
   content: [
     './src/**/*.{js,ts,jsx,tsx,mdx}'
   ],
-  theme: {
-    extend: {
-      backgroundImage: {
-        'hero': "url('/images/background.jpg')"
-      }
-    }
-  }
+  plugins: [require("daisyui")]
 }

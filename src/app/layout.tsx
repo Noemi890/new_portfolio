@@ -15,8 +15,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} font-sans antialiased text-gray-100 leading-normal tracking-wider bg-cover bg-[url('https://source.unsplash.com/1L71sPT5XKc')]`} >
-        <div>{children}</div>
+      <body
+        className={`${inter.className} font-sans antialiased text-gray-100 leading-normal tracking-wider bg-cover py-32 lg:py-0`}
+        style={{
+          backgroundImage: "url('https://source.unsplash.com/1L71sPT5XKc')",
+        }}
+      >
+        {children}
       </body>
     </html>
   );
