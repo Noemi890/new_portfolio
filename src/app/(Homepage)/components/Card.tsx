@@ -1,4 +1,5 @@
 import Icons from "./Icons";
+import Link from "next/link";
 
 const Card = () => {
   return (
@@ -36,9 +37,9 @@ const Card = () => {
         </p>
 
         <div className="pt-12 pb-8 flex justify-center">
-          <button className="bg-violet-700 hover:bg-violet-900 text-white font-bold py-2 px-4 rounded-full">
+          <Link href={'/contact_me'} className="bg-violet-700 hover:bg-violet-900 text-white font-bold py-2 px-4 rounded-full">
             Get In Touch
-          </button>
+          </Link>
         </div>
         <Icons />
       </div>
