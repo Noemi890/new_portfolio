@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <div
       id="profile"
-      className="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-gray-900 opacity-75 mx-6 lg:mx-0"
+      className="w-full lg:w-3/5 rounded-[2.75rem] lg:rounded-l-[2.75rem] lg:rounded-r-none bg-gray-900 opacity-75 mx-6 lg:mx-0 shadow-glassCard"
     >
       <div className="p-4 md:p-12 text-center lg:text-left">
         <div className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center bg-[url('/images/profile.jpeg')]"></div>
