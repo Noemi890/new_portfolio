@@ -4,7 +4,7 @@ const Icons = () => {
   return (
     <div className="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-around">
       <div className="tooltip" data-tip="Linkedin">
-        <Link className="link" href="#">
+        <Link className="link" href="https://www.linkedin.com/in/noemi-caggiano-19b924a4/" target="_blank">
           <svg
             className="h-6 fill-current text-gray-600 hover:text-violet-700"
             role="img"
@@ -17,7 +17,7 @@ const Icons = () => {
         </Link>
       </div>
       <div className="tooltip" data-tip="GitHub">
-        <Link className="link" href="#">
+        <Link className="link" href="https://github.com/Noemi890" target="_blank">
           <svg
             className="h-6 fill-current text-gray-600 hover:text-violet-700"
             role="img"
