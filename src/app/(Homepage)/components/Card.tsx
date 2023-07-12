@@ -36,7 +36,10 @@ const Card = () => {
           on.
         </p>
 
-        <div className="pt-12 pb-8 flex justify-center">
+        <div className="pt-12 pb-8 flex justify-around">
+        <Link href={'/projects'} className="bg-violet-700 hover:bg-violet-900 text-white font-bold py-2 px-4 rounded-full">
+            Projects
+          </Link>
           <Link href={'/contact_me'} className="bg-violet-700 hover:bg-violet-900 text-white font-bold py-2 px-4 rounded-full">
             Get In Touch
           </Link>
