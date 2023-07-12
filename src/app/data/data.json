@@ -1,6 +1,7 @@
 {
   "projects": [
     {
+      "id": 1,
       "name": "Cohort Manager",
       "slug": "cohort_manager",
       "subtitle": "",
@@ -9,6 +10,7 @@
       "video": "/videos/cohort_manager.mp4"
     },
     {
+      "id": 2,
       "name": "Chat App",
       "slug": "chat_app",
       "subtitle": "",
@@ -17,6 +19,7 @@
       "video": null
     },
     {
+      "id": 3,
       "name": "RolePlay",
       "slug": "role_play",
       "subtitle": "",
@@ -25,6 +28,7 @@
       "video": "/videos/cohort_manager.mp4"
     },
     {
+      "id": 4,
       "name": "Play Nation",
       "slug": "play_nation",
       "subtitle": "",
@@ -33,6 +37,7 @@
       "video": "/videos/play_nation.mp4"
     },
     {
+      "id": 5,
       "name": "Kubika S.r.l",
       "slug": "kubika",
       "subtitle": "",
