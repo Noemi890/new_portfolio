@@ -7,7 +7,7 @@ const Card = () => {
   return (
     <div
       id="profile"
-      className="w-full lg:w-3/5 rounded-[2.75rem] lg:rounded-l-[2.75rem] lg:rounded-r-none bg-gray-900 opacity-75 mx-6 lg:mx-0"
+      className="w-full lg:w-3/5 rounded-[2.75rem] lg:rounded-l-[2.75rem] lg:rounded-r-none bg-gray-900 opacity-75 mx-6 lg:mx-0 lg:h-[538px]"
     >
       <div className="p-4 md:p-12 text-center lg:text-left">
         <div className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center bg-[url('/images/profile.jpeg')]"></div>
@@ -40,7 +40,7 @@ const Card = () => {
           </svg>{" "}
           Lewisham, London, UK
         </p>
-        <p className="pt-8 text-sm">
+        <p className="pt-8 text-sm h-[172px] lg:h-[152px]">
           <Typewriter
             cursor
             typeSpeed={20}
