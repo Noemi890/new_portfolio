@@ -3,47 +3,42 @@
     {
       "id": 1,
       "name": "Cohort Manager",
-      "slug": "cohort_manager",
-      "subtitle": "",
-      "description": "",
+      "description": "A web-based learning management system where teachers and admins can manage courses and users while allowing interactions among students and teachers.",
       "image": "/images/cohort_manager_logo.png",
-      "video": "/videos/cohort_manager.mp4"
+      "repo": "https://github.com/Noemi890/team-dev-client-c6",
+      "liveApp": ""
     },
     {
       "id": 2,
       "name": "Chat App",
-      "slug": "chat_app",
-      "subtitle": "",
-      "description": "",
+      "description": "A web based chat app that allows the user to login via Google and chat with whoever is in the chat in that specific moment.",
       "image": "/images/coming_soon_logo.png",
-      "video": null
+      "repo": "https://github.com/Noemi890/typescript-chat",
+      "liveApp": "https://typescript-chat-7885d.firebaseapp.com/"
     },
     {
       "id": 3,
       "name": "RolePlay",
-      "slug": "role_play",
-      "subtitle": "",
-      "description": "",
+      "description": "A text-based 'social media like' RPG developed during my final weeks at Boolean. It allows the User to create an account with multiple characters and each one can participate in a Game.",
       "image": "/images/roleplay_logo.png",
-      "video": "/videos/cohort_manager.mp4"
+      "repo": "https://github.com/Noemi890/Roleplay_RPG-Text-based",
+      "liveApp": ""
     },
     {
       "id": 4,
       "name": "Play Nation",
-      "slug": "play_nation",
-      "subtitle": "",
-      "description": "",
+      "description": "A Website that allows the User, through a list of games, to choose the game he is interested in and have more information about it, with the possibility to be redirected to the game website.",
       "image": "/images/play_nation_logo.png",
-      "video": "/videos/play_nation.mp4"
+      "repo": "https://github.com/Noemi890/play_nation",
+      "liveApp": "https://playnation.netlify.app/"
     },
     {
       "id": 5,
       "name": "Kubika S.r.l",
-      "slug": "kubika",
-      "subtitle": "",
-      "description": "",
+      "description": "A website developed for an Italian Multiservice agency",
       "image": "/images/coming_soon_logo.png",
-      "video": null
+      "repo": "",
+      "liveApp": ""
     }
   ]
 }

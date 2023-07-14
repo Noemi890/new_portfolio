@@ -3,8 +3,13 @@ import data from "../../data/data.json";
 import Link from "next/link";
 
 const ProjectsCards = () => {
+  const isLive = (project: string) => {
+    if (project === "") return false;
+    else return true;
+  };
+
   return (
-    <div className="flex flex-wrap justify-evenly my-5 gap-10">
+    <div className="flex flex-wrap justify-evenly my-5 gap-10 mx-5 lg:mx-0">
       {data.projects.map((proj) => {
         return (
           <>
@@ -20,13 +25,17 @@ const ProjectsCards = () => {
               </figure>
               <div className="card-body">
                 <h2 className="card-title">{proj.name}</h2>
-                <p>Lorem Ipsum dolor sit amed.</p>
+                <p>{proj.description}</p>
                 <div className="card-actions items-center lg:justify-between flex flex-col lg:flex-row">
                   <div
-                    className="tooltip tooltip-bottom"
+                    className="tooltip tooltip-left lg:tooltip-bottom"
                     data-tip="See repository"
                   >
-                    <button className="btn btn-primary btn-xs sm:btn-sm lg:btn-md">
+                    <Link
+                      href={proj.repo}
+                      target="_blank"
+                      className="btn btn-primary btn-sm lg:btn-md"
+                    >
                       Check out{" "}
                       <svg
                         className="h-6 w-6"
@@ -63,13 +72,21 @@ const ProjectsCards = () => {
                           </g>
                         </g>
                       </svg>
-                    </button>
+                    </Link>
                   </div>
                   <div
-                    className="tooltip tooltip-bottom"
+                    className="tooltip tooltip-left lg:tooltip-bottom"
                     data-tip="See live project"
                   >
-                    <button className="btn btn-primary btn-xs sm:btn-sm lg:btn-md">
+                    <Link
+                      href={proj.liveApp}
+                      target="_blank"
+                      className={`btn btn-primary btn-sm lg:btn-md ${
+                        isLive(proj.liveApp)
+                          ? ""
+                          : "pointer-events-none cursor-not-allowed"
+                      }`}
+                    >
                       <svg
                         className="h-6 w-6"
                         fill="#000000"
@@ -103,7 +120,7 @@ const ProjectsCards = () => {
                           />
                         </g>
                       </svg>
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>

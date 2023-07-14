@@ -41,8 +41,14 @@ const Card = () => {
           Lewisham, London, UK
         </p>
         <p className="pt-8 text-sm">
-          Totally optional short description about yourself, what you do and so
-          on.
+          <Typewriter
+            cursor
+            typeSpeed={20}
+            loop={1}
+            words={[
+              "Hi! My name is Noemi and I am a Junior Software Developer. I spent 6 months developing my skills trough the Software Developer Bootcamp ~Boolean UK~ and now I am seeking an opportunity to enter the industry and develop my skills further. In the meantime I am developing my skills as a volunteer, building websites for friends.",
+            ]}
+          />
         </p>
 
         <div className="pt-12 pb-8 flex justify-around">
